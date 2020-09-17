@@ -1,0 +1,77 @@
+body {
+    background-color: azure;
+   }
+.container {
+    width: 1024px;
+    margin: auto;
+   }
+.header {
+    background-image: url('https://drive.google.com/uc?export=view&id=1rT8tK5OhbJdAEhLDMW96UqZkTAIz57gC');
+    height: 200px;
+    width: 100%;
+   }
+.header .logo {
+    float: left;
+    width: 15%;
+   }
+.header .logo img {
+    margin: 5px 15px 5px 15px;
+    width: 100%;
+    padding: 5px;
+   }
+.header .nav {
+    width: 80%;
+    float: left;
+   }
+.header .nav h1 {
+    margin: 30px;
+    font-size: 30px;
+    font-family: sans-serif
+   }
+.header .nav h3 {
+    margin-left: 30px;
+    font-size: 20px;
+    font-family: sans-serif
+   }
+.header .nav ul {
+    float: right;
+    font-size: 16px;
+    margin-right: 15px;
+   }
+.header .nav ul li {
+    float: left;
+    font-size: 16px;
+    margin-left: 15px;
+    display: block;
+   }
+.header .nav ul li a {
+    color: rgb(248, 23, 7);
+    text-decoration: none;
+   }
+.header .nav ul li a:hover {
+    color: rgba(40, 10, 41, 0.733);
+    text-decoration: underline;
+   }
+.header .nav ul li a:active {
+    color: yellow;
+   }
+.wrapper {
+    background-color: #cbe0ee;
+    float: left;
+    width: 100%
+}
+.sidebar{
+    width: 30%;
+    float: left;
+   }
+.content {
+    background-color: #cbe0ee;
+    width: 70%;
+    float: right;
+   }
+.footer {
+    background-image: url('https://drive.google.com/uc?export=view&id=1rT8tK5OhbJdAEhLDMW96UqZkTAIz57gC');
+    clear: both;
+    text-align: center;
+    padding: 15px;
+   }
